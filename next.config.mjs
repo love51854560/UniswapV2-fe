@@ -23,7 +23,6 @@ const nextConfig = {
   },
   trailingSlash: true, // 添加斜杠使路径符合 GitHub Pages 目录结构
   output: 'export',
-  assetPrefix: '/UniswapV2-fe'
 }
 
 mergeConfig(nextConfig, userConfig)
